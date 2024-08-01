@@ -202,6 +202,12 @@ footer{
   overflow: hidden;
 }
 
+.btn-download {
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .card img {
   width: 300px; /* Lebar gambar lebih kecil */
   height: auto;
@@ -783,4 +789,38 @@ button.btn {
   width: 150px;
   font-size: 16px;
   padding: 10px;
+}
+.hero-section {
+  background: url('https://source.unsplash.com/1600x900/?village') no-repeat center center;
+  background-size: cover;
+  color: #000000;
+  padding: 5px;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.content-section {
+  padding: 50px 15px;
+}
+.content-section h3 {
+  margin-top: 30px;
+  font-weight: bold;
+}
+.content-section p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+.content-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+.content-section ul li::before {
+  content: "✓";
+  color: #198754;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
